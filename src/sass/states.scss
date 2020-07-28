@@ -1,0 +1,10 @@
+.is-active {
+   @include neon;
+   
+   span {
+      display: inline-block;
+      @media (max-width: $breakpoint-small) {
+         display: none;
+      }
+   }
+}

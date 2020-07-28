@@ -1,0 +1,52 @@
+.nav {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   
+   @media (max-width: $breakpoint-medium) {
+      flex-direction: row;
+      margin-top: auto;
+   }
+}
+.nav-container {
+   @media (max-width: $breakpoint-medium) {
+      display: flex;
+   }
+}
+
+.menu, .menu-social {
+   @include marginPadding(0, 0);
+   
+   &__link {
+      @include marginPadding(0, 10px);
+      display: block;
+      letter-spacing: 1px;
+      transition: color .5s, text-shadow .5s;
+      
+      @media (max-width: $breakpoint-small) {
+         @include marginPadding(5px, 5px);
+      }
+   }
+   &__link:hover {
+      @include neon;
+   }
+   &__link i {
+      margin-right: 10px;
+      @media (max-width: $breakpoint-small) {
+         margin-right: 0;
+      }
+   }
+   &__link span {
+      @media (max-width: $breakpoint-medium) {
+         display: none;
+      }
+   }
+
+   @media (max-width: $breakpoint-medium) {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+   }
+}
+
