@@ -4,5 +4,5 @@ body {
 }
 
 .neon {
-   @include neon(15px);
+   @include neon();
 }

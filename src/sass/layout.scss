@@ -1,17 +1,16 @@
 body {
    display: grid;
    grid-template-columns: auto 1fr;
-   grid-template-areas: "navbar main";
    grid-template-rows: 1fr;
    gap: 15px;
    
    @media (max-width: $breakpoint-medium) {
       display: flex;
       flex-direction: column-reverse;
+      justify-content: space-between;
    }
 }
 
 main {
-   padding: 15px;
    overflow-y: auto;
 }

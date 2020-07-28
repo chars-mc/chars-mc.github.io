@@ -1,0 +1,57 @@
+
+.profile {
+   @include marginPadding(0 auto, 15px);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   &__photo {
+      display: block;
+      width: 300px;
+      height: 350px;
+      object-fit: cover;
+      object-position: center;
+      margin-right: 1rem;
+   }
+   @media (max-width: $breakpoint-medium) {
+      flex-direction: column-reverse;
+      align-items: center;
+      
+      &__photo {
+         width: 220px;
+         height: 270px;
+         margin: 0;
+      }
+
+      &__description {
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+      }
+   }
+}
+
+.button {
+   padding: 15px;
+   display: block;
+   transition: all .3s;
+   text-align: center;
+
+   &::before {
+      content: '{ ';
+   }
+   &::after {
+      content: ' }';
+   }
+   &::before,
+   &::after {
+      position: relative;
+   }
+
+   &:hover {
+      @include neon(15px, white);
+      font-weight: bold;
+      background-color: $neon;
+      box-shadow: 0 0 15px $neon;
+   }
+}

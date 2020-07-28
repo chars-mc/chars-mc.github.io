@@ -1,6 +1,6 @@
-@mixin neon($size: 10px) {
-   color: $neon;
-   text-shadow: 0 0 $size $neon;
+@mixin neon($size: 10px, $color: $neon) {
+   color: $color;
+   text-shadow: 0 0 $size $color;
 }
 
 @mixin marginPadding($margin, $padding) {
