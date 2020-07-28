@@ -19,7 +19,13 @@ module.exports = {
       rules: [
          {
             test: /\.hbs$/i,
-            use: 'handlebars-loader'
+            // use: 'handlebars-loader'
+            use: [{
+               loader: 'handlebars-loader',
+               options: {
+                  partialDirs: __dirname + "/src/partials"
+               }
+           }]
          },
          {
             test: /\.s[ac]ss$/i,
