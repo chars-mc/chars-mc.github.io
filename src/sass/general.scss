@@ -6,3 +6,11 @@ body {
 .neon {
    @include neon();
 }
+
+.title {
+   font-size: 1.5rem;
+}
+.subtitle {
+   @include neon(5px);
+   font-size: 1.2rem;
+}

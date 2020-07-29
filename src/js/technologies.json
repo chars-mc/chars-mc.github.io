@@ -1,0 +1,72 @@
+{
+   "frontend": [
+      {
+         "name": "HTML",
+         "icon": "devicon-html5-plain colored"
+      },
+      {
+         "name": "CSS",
+         "icon": "devicon-css3-plain colored"
+      },
+      {
+         "name": "JavaScript",
+         "icon": "devicon-javascript-plain colored"
+      },
+      {
+         "name": "Handlebars",
+         "icon": "devicon-handlebars-plain"
+      },
+      {
+         "name": "Sass",
+         "icon": "devicon-sass-plain colored"
+      },
+      {
+         "name": "TypeScript",
+         "icon": "devicon-typescript-plain colored"
+      }
+   ],
+   "backend": [
+      {
+         "name": "Nodejs",
+         "icon": "devicon-nodejs-plain-wordmark colored"
+      },
+      {
+         "name": "MySQL",
+         "icon": "devicon-mysql-plain colored"
+      },
+      {
+         "name": "MongoDB",
+         "icon": "devicon-mongodb-plain colored"
+      }
+   ],
+   "tools": [
+      {
+         "name": "Git",
+         "icon": "devicon-git-plain colored"
+      },
+      {
+         "name": "Webpack",
+         "icon": "devicon-webpack-plain colored"
+      }
+   ],
+   "other": [
+      {
+         "name": "PHP",
+         "icon": "devicon-php-plain colored"
+      },
+      {
+         "name": "Java SE",
+         "icon": "devicon-java-plain colored"
+      }
+   ],
+   "learning": [
+      {
+         "name": "React",
+         "icon": "devicon-react-original colored"
+      },
+      {
+         "name": "Go",
+         "icon": "devicon-go-plain"
+      }
+   ]
+}
