@@ -1,0 +1,19 @@
+.contact-info {
+   a {
+      width: 90%;
+      margin: 10px auto;
+      text-align: left;
+
+      @media (min-width: $breakpoint-medium) {
+         max-width: 280px;
+         margin: 10px;
+      }
+
+      i {
+         transition: color .3s;
+      }
+   }
+   a:hover i {
+      color: $white;;
+   }
+}
