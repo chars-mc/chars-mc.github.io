@@ -1,5 +1,4 @@
 body {
-   border: 2px solid $grey;
    padding: 10px;
 }
 
@@ -10,6 +9,7 @@ body {
 .title {
    font-size: 1.5rem;
 }
+
 .subtitle {
    @include neon(5px);
    font-size: 1.2rem;

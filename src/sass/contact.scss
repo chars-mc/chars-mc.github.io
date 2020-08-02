@@ -1,19 +1,30 @@
-.contact-info {
+.contact {
+   text-align: center;
+}
+.contact-info, .social-medias {
+   display: grid;
+   grid-template-columns: .6fr 1fr .6fr;
+   justify-content: space-around;
+   padding: 15px;
+   
    a {
-      width: 90%;
-      margin: 10px auto;
-      text-align: left;
-
-      @media (min-width: $breakpoint-medium) {
-         max-width: 280px;
-         margin: 10px;
-      }
+      width: fit-content;
+      margin: 5px auto;
 
       i {
          transition: color .3s;
+
+      }
+      &:hover {
+         i {
+            color: $white;
+
+         }
       }
    }
-   a:hover i {
-      color: $white;;
+
+   @media (max-width: $breakpoint-medium) {
+      display: flex;
+      flex-direction: column;
    }
 }

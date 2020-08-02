@@ -1,32 +1,26 @@
 .nav {
    display: flex;
-   flex-direction: column;
    justify-content: space-between;
-   align-items: center;
-   
-   @media (max-width: $breakpoint-medium) {
-      flex-direction: row;
-   }
 }
 
 .logo {
    svg {
-      opacity: .9;
-      width: 150px
+      width: 90px;
    }
 
    @media (max-width: $breakpoint-medium) {
       margin: auto 0;
 
       svg {
-         height: 25px;
+         height: 30px;
          width: auto;
       }
    }
 }
 
-
 .nav-container {
+   display: flex;
+
    @media (max-width: $breakpoint-medium) {
       display: flex;
    }
@@ -34,6 +28,9 @@
 
 .menu, .menu-social {
    @include marginPadding(0, 0);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    
    &__link {
       @include marginPadding(0, 10px);
@@ -49,7 +46,8 @@
       @include neon;
    }
    &__link i {
-      margin-right: 10px;
+      margin-right: 8px;
+
       @media (max-width: $breakpoint-small) {
          margin-right: 0;
       }
@@ -63,7 +61,7 @@
    @media (max-width: $breakpoint-medium) {
       display: flex;
       align-items: center;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
    }
 }
 
