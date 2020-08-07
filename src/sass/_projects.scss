@@ -1,0 +1,50 @@
+.repos {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 10px;
+}
+
+.repo {
+   border: 1px solid transparent;
+   transition: border-color .3s;
+   text-align: center;
+   margin: 10px;
+   display: grid;
+   grid-template-rows: auto 1fr;
+
+   &__header,
+   &__body {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+   }
+   &__header {
+      transition: background-color .3s;
+   }
+   
+   &__languajes {
+      margin-top: auto;
+      padding: 5px;
+   }
+   &__languajes i,
+   &__languajes span {
+      margin: 5px;
+      font-size: 1.3rem;
+   }
+   
+   &__name {
+      margin: 0;
+   }
+
+   &__links {
+      display: flex;
+   }
+   
+   &:hover {
+      border-color: $neon;
+   }
+   &:hover &__header {
+      background-color: $neon;
+      color: $white;
+   }
+}

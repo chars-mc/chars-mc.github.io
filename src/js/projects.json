@@ -1,0 +1,76 @@
+[
+   {
+      "name": "Todo list",
+      "description": "Simple todo list web app.",
+      "languajes": [
+         "devicon-html5-plain colored",
+         "devicon-css3-plain colored",
+         "devicon-javascript-plain colored",
+         "devicon-sass-plain colored",
+         "devicon-handlebars-plain",
+         "devicon-webpack-plain colored"
+      ],
+      "links": {
+         "code": "https://github.com/chars-mc/TodoList",
+         "live": "https://chars-mc.github.io/TodoList/"
+      }
+   },
+   {
+      "name": "Movies app",
+      "description": "App to get movie and series information from OMDb API.",
+      "languajes": [
+         "devicon-html5-plain colored",
+         "devicon-css3-plain colored",
+         "devicon-javascript-plain colored",
+         "devicon-sass-plain colored",
+         "devicon-handlebars-plain",
+         "devicon-webpack-plain colored"
+      ],
+      "links": {
+         "code": "https://github.com/chars-mc/OMDbApp",
+         "live": "https://chars-mc.github.io/OMDbApp/"
+      }
+   },
+   {
+      "name": "Rest API",
+      "description": "Rest api to login, register and user authentication.",
+      "languajes": [
+         "devicon-typescript-plain colored",
+         "devicon-nodejs-plain-wordmark colored",
+         "devicon-mongodb-plain colored"
+      ],
+      "links": {
+         "code": "https://github.com/chars-mc/rest-api-ts-mongodb"
+      }
+   },
+   {
+      "name": "Home automation",
+      "description": "The application consists of displaying data obtained from sensors connected to an arduino.",
+      "languajes": [
+         "devicon-java-plain colored",
+         "devicon-cplusplus-plain",
+         "devicon-mysql-plain colored"
+      ],
+      "links": {
+         "code": "https://github.com/chars-mc/home-automation"
+      }
+   },
+   {
+      "name": "Schedule",
+      "description": "Console application to schedule appointments and consultations.",
+      "languajes": [
+         "devicon-cplusplus-plain"
+      ],
+      "links": {
+         "code": "https://github.com/chars-mc/console-schedule"
+      }
+   },
+   {
+      "name": "Sort numbers",
+      "description": "Program that ask for 20 numbers & sort them.",
+      "techs": ["Assembly", "Bat"],
+      "links": {
+         "code": "https://github.com/chars-mc/sort-numbers"
+      }
+   }
+]
