@@ -1,9 +1,9 @@
 .contact {
    text-align: center;
 }
-.contact-info, .social-medias {
+.contact-info {
    display: grid;
-   grid-template-columns: .6fr 1fr .6fr;
+   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
    justify-content: space-around;
    padding: 15px;
    
