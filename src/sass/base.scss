@@ -1,13 +1,13 @@
 * {
    box-sizing: border-box;
 }
+html { height: 100%; }
 
 body {
    max-width: 1000px;
    margin-left: auto;
    margin-right: auto;
-   min-height: 100vh;
-   max-height: 100vh;
+   height: 100%;
    font-family:'Roboto Mono', 'Source Code Pro', hack, consolas, monospace, Arial, Helvetica, sans-serif;
 
    background-color: $black;

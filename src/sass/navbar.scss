@@ -1,6 +1,10 @@
 .nav {
    display: flex;
    justify-content: space-between;
+   
+   @media (max-width: $breakpoint-medium) {
+      margin-top: auto;
+   }
 }
 
 .logo {
