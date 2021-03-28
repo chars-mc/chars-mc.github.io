@@ -29,3 +29,14 @@ body {
       background-color: $neon;
    }
 }
+
+.error {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5rem;
+    filter: invert(1);
+   
+    h3 {
+       font-size: 3rem;
+    }
+}
