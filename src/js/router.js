@@ -21,8 +21,6 @@ export default function router(route = '') {
 }
 
 function activateLink(link) {
-   // let link = location.hash;
-
    if(link === '' || link === '#/') link = 'home';
    else link = link.split('/')[1];
 
