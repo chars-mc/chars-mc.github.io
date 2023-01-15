@@ -4,11 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Carlos Manuel - Software Engineer" />
+		<meta name="keywords" content="software,engineer,fullstack,developer" />
 		<title>chars.dev</title>
+		<link rel="icon" href="img/logo.svg" />
 		<!-- icons -->
 		<link
 			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
 			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 		/>
 		<!-- fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,11 +29,120 @@
 	</head>
 
 	<body>
-		<h1>chars.dev</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illum iste
-			atque repellat suscipit labore?
-			<i class="bx bxs-rocket"></i>
-		</p>
+		<header class="header">
+			<div class="header__logo">
+				<h1>chars.dev</h1>
+			</div>
+
+			<nav class="header__nav">
+				<a href="#home" class="nav__link">
+					<i class="bx bx-home-alt"></i>
+					<span class="nav__link-text">Home</span>
+				</a>
+				<a href="#experience" class="nav__link">
+					<i class="bx bx-briefcase"></i>
+					<span class="nav__link-text">Experience</span>
+				</a>
+				<a href="#projects" class="nav__link">
+					<i class="bx bx-laptop"></i>
+					<span class="nav__link-text">Projects</span>
+				</a>
+				<a href="#about" class="nav__link">
+					<i class="bx bx-user-circle"></i>
+					<span class="nav__link-text">About Me</span>
+				</a>
+			</nav>
+		</header>
+
+		<main>
+			<section id="home">
+				<div class="home__introduction">
+					<h3>Hi, I'm Carlos.</h3>
+					<h1 class="heading">Software Engineer</h1>
+					<p class="home__description">
+						I build web applications, from idea to implementation. I'm currently
+						working as a <strong>freelance fullstack developer.</strong>
+						Also, I'm developing my own software products
+						<i class="bx bx-rocket"></i>
+					</p>
+
+					<div class="home__action">
+						<p><i class="bx bx-brain"></i> Do you have a project in mind?</p>
+						<a href="mailto:chars.dev@gmail.com" class="btn btn-action">
+							Get in touch
+						</a>
+					</div>
+				</div>
+
+				<div class="home__profile">
+					<img
+						src="img/profile_picture.png"
+						class="home__image"
+						alt="profile picture"
+					/>
+					<div class="social">
+						<a
+							href="https://twitter.com/chars_dev"
+							target="_blank"
+							class="social__link"
+						>
+							<i class="bx bxl-twitter"></i>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/chars-dev/"
+							target="_blank"
+							class="social__link"
+						>
+							<i class="bx bxl-linkedin"></i>
+						</a>
+						<a
+							href="https://github.com/chars-mc"
+							target="_blank"
+							class="social__link"
+						>
+							<i class="bx bxl-github"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="experience">
+				<h2 class="section__title">Experience</h2>
+				<div class="experiences"></div>
+			</section>
+
+			<section id="projects">
+				<h2 class="section__title">Projects</h2>
+				<div class="projects"></div>
+			</section>
+
+			<section id="about">
+				<h2 class="section__title">About me</h2>
+				<p class="about__description">
+					Hi there, I'm Carlos Manuel, a software engineer that enjoys
+					developing software and everything related to computer science.
+					<br />
+					Throughout my studies I've developed interesting applications, and in
+					a future I hope to be able to create or contribute to some
+					technological project that generates a great impact on society.
+				</p>
+
+				<div class="about__skills">
+					<h3>Tech stack & tools</h3>
+					<div class="skills"></div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer__text">
+				Developed by
+				<a href="https://twitter.com/chars_dev" target="_blank">chars.dev</a>
+			</p>
+		</footer>
+
+		<script src="js/experience.js"></script>
+		<script src="js/projects.js"></script>
+		<script src="js/skills.js"></script>
 	</body>
 </html>
