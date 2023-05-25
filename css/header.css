@@ -1,0 +1,42 @@
+.header {
+	background-color: var(--clr-dark-1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header__logo h1 {
+	font-size: 1.3rem;
+}
+
+.header__nav {
+	display: flex;
+	gap: var(--spacing);
+}
+
+.nav__link {
+	font-size: var(--font-sm);
+	color: var(--clr-font);
+	text-decoration: none;
+
+	-webkit-tap-highlight-color: transparent;
+}
+
+.nav__link:active,
+.nav__link:hover {
+	color: var(--clr-primary);
+}
+
+@media (max-width: 720px) {
+	.nav__link {
+		font-size: var(--font-size);
+	}
+
+	.nav__link-text {
+		display: none;
+	}
+}

@@ -1,0 +1,44 @@
+/* skills */
+#about {
+	text-align: center;
+}
+
+.about__description {
+	max-width: 60ch;
+	margin-inline: auto;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--spacing);
+}
+
+.skill-group {
+	flex-grow: 1;
+
+	padding: var(--spacing);
+
+	border: 1px solid var(--clr-border);
+	border-radius: var(--border-radius);
+}
+
+.skill-group__title {
+	margin-top: 0;
+}
+
+.skill-group__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: var(--spacing);
+}
+
+.skill__icon {
+	--size: 1.7rem;
+	margin: auto;
+}
+
+.skill__name {
+	font-size: calc(var(--font-sm) - 0.1rem);
+}
