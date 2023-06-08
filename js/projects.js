@@ -22,8 +22,8 @@ const projects = [
 		logoIcon: "bx bx-network-chart",
 		screenshot: "img/screenshots/encryptor.png",
 		links: [
-			{ name: "Backend", url: "github.com/chars-mc/encryptor-api" },
-			{ name: "Frontend", url: "github.com/chars-mc/encryptor-app" },
+			{ name: "Backend", url: "https://github.com/chars-mc/encryptor-api" },
+			{ name: "Frontend", url: "https://github.com/chars-mc/encryptor-app" },
 		],
 		stack: [
 			{ name: "Svelte", icon: "svelte/svelte-original.svg" },
@@ -39,10 +39,45 @@ const projects = [
 			"Web application to create simple timelines, using JSON files to store the data and allowing export to PDF.",
 		logoIcon: "bx bx-time",
 		screenshot: "img/screenshots/timeline_maker.png",
-		links: [{ url: "chars-mc.github.io/timeline-maker/", type: "preview" }],
+		links: [
+			{ name: "Repository", url: "https://github.com/chars-mc/timeline-maker" },
+			{ url: "https://chars-mc.github.io/timeline-maker/", type: "preview" },
+		],
 		stack: [
 			{ name: "Javascript", icon: "javascript/javascript-original.svg" },
 			{ name: "Vue", icon: "vuejs/vuejs-original.svg" },
+		],
+	},
+	{
+		name: "Home Climate",
+		description: "Internet of things project to control the climate and lights in a house",
+		logoIcon: "bx bx-home",
+		screenshot: "img/screenshots/home_climate.png",
+		links: [{ name: "Repository", url: "https://github.com/chars-mc/home-climate" }],
+		stack: [
+			{ name: "Arduino", icon: "arduino/arduino-original.svg" },
+			{ name: "Java", icon: "java/java-original.svg" },
+			{ name: "CSS", icon: "css3/css3-original.svg" },
+			{ name: "MySQL", icon: "mysql/mysql-original.svg" },
+		],
+	},
+	{
+		name: "Lexical-syntactic Analyzer",
+		description: "Lexical-syntactic analyzer for source code written in C++ using JFlex & JCup.",
+		logoIcon: "bx bx-analyse",
+		screenshot: "img/screenshots/lexical-syntactic_analyzer.png",
+		links: [{ name: "Repository", url: "https://github.com/chars-mc/lexical-syntactic-analyzer" }],
+		stack: [{ name: "Java", icon: "java/java-original.svg" }],
+	},
+	{
+		name: "Line and Circle Drawer",
+		description: "Implementation of algorithms for drawing lines and circles with OpenGL.",
+		logoIcon: "bx bx-shape-circle",
+		screenshot: "img/screenshots/line_circle_drawer.png",
+		links: [{ name: "Repository", url: "https://github.com/chars-mc/line-and-circle-drawer" }],
+		stack: [
+			{ name: "OpenGL", icon: "opengl/opengl-original.svg" },
+			{ name: "Go", icon: "go/go-original-wordmark.svg" },
 		],
 	},
 ];

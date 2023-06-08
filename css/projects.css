@@ -17,6 +17,11 @@
 	overflow: hidden;
 }
 
+.project__screenshot {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
 .project__logo {
 	--size: 4rem;
 
