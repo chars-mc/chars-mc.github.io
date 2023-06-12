@@ -85,7 +85,6 @@ const projects = [
 projects.forEach((project) => {
 	projectsDiv.innerHTML += `
 		<div class="project">
-			<i class="${project.logoIcon} project__logo"></i>
 			<img
 				src="${project.screenshot}"
 				alt="${project.name}_screenshot"
@@ -93,7 +92,10 @@ projects.forEach((project) => {
 			/>
 
 			<div class="project__details">
-				<h3 class="project__name">${project.name}</h3>
+				<h3 class="project__name">
+					<i class="${project.logoIcon} project__logo"></i>
+					${project.name}
+				</h3>
 				<p class="project__description">${project.description}</p>
 
 				<div class="project__stack">

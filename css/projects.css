@@ -22,19 +22,13 @@
 	object-fit: cover;
 }
 
-.project__logo {
-	--size: 4rem;
-
-	color: var(--clr-border);
-	font-size: var(--size);
-
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
 .project__name {
 	margin: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--spacing-sm);
 }
 
 .project__details {
@@ -62,13 +56,3 @@
 .project__link {
 	font-size: var(--font-sm);
 }
-
-.tech-icon {
-}
-
-/* @media (max-width: 900px) {
-	.project__stack .tech-icon {
-		width: 30px;
-		margin: calc(var(--spacing) / 2);
-	}
-} */
