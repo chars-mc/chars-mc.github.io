@@ -68,17 +68,13 @@ footer {
 /* main */
 main {
 	max-width: 920px;
-	width: 80%;
+	width: 90%;
 	margin-inline: auto;
 }
 
 @media (max-width: 900px) {
 	:root {
 		font-size: 16px;
-	}
-
-	main {
-		width: 90%;
 	}
 }
 

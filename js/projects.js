@@ -36,7 +36,7 @@ const projects = [
 	{
 		name: "Timeline Maker",
 		description:
-			"Web application to create simple timelines, using JSON files to store the data and allowing export to PDF.",
+			"Web application to create simple timelines using JSON files to store the data and allowing export to PDF.",
 		logoIcon: "bx bx-time",
 		screenshot: "img/screenshots/timeline_maker.png",
 		links: [
@@ -50,7 +50,7 @@ const projects = [
 	},
 	{
 		name: "Home Climate",
-		description: "Internet of things project to control the climate and lights in a house",
+		description: "Internet of things project to control the climate and lights in a house.",
 		logoIcon: "bx bx-home",
 		screenshot: "img/screenshots/home_climate.png",
 		links: [{ name: "Repository", url: "https://github.com/chars-mc/home-climate" }],
