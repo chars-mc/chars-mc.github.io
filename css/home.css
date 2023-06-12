@@ -42,7 +42,7 @@
 
 .more {
 	position: absolute;
-	bottom: 2rem;
+	bottom: 1.5rem;
 
 	display: flex;
 	flex-direction: column;
@@ -69,6 +69,4 @@
 	font-size: var(--font-sm);
 	text-decoration: underline;
 	opacity: 0.5;
-
-	margin-bottom: var(--spacing);
 }
