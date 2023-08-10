@@ -20,6 +20,32 @@
 .project__screenshot {
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
+
+	transition: opacity 0.2s ease-in-out;
+}
+
+.project__screenshot-link {
+	display: block;
+	position: relative;
+}
+
+.project__screenshot-link-text {
+	opacity: 0;
+
+	transition: opacity 0.2s ease-in-out;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.project__screenshot-link:hover .project__screenshot {
+	opacity: 0.1;
+}
+
+.project__screenshot-link:hover .project__screenshot-link-text {
+	opacity: 1;
 }
 
 .project__name {

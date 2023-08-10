@@ -103,11 +103,16 @@ const projects = [
 projects.forEach((project) => {
 	projectsDiv.innerHTML += `
 		<div class="project">
-			<img
-				src="${project.screenshot}"
-				alt="${project.name}_screenshot"
-				class="project__screenshot"
-			/>
+			<a class="project__screenshot-link" href="/${project.screenshot}" target="blank">
+				<img
+					src="${project.screenshot}"
+					alt="${project.name}_screenshot"
+					class="project__screenshot"
+				/>
+				<span class="project__screenshot-link-text">
+					Click to open image
+				</span>
+			</a>
 
 			<div class="project__details">
 				<h3 class="project__name">
