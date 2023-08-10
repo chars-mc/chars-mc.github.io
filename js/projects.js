@@ -1,6 +1,24 @@
 const projectsDiv = document.querySelector(".projects");
 const projects = [
 	{
+		name: "Point of Sale",
+		description:
+			"A multi-user Point of Sale System to manage inventory, sales, profits and expenses of multiple grocery stores.",
+		logoIcon: "bx bx-store",
+		screenshot: "img/screenshots/pos.png",
+		stack: [
+			{ name: "HTML", icon: "html5/html5-original.svg" },
+			{ name: "CSS", icon: "css3/css3-original.svg" },
+			{ name: "Typescript", icon: "typescript/typescript-original.svg" },
+			{ name: "React", icon: "react/react-original.svg" },
+			{ name: "Storybook", icon: "storybook/storybook-original.svg" },
+			{ name: "Go", icon: "go/go-original-wordmark.svg" },
+			{ name: "MySQL", icon: "mysql/mysql-original.svg" },
+			{ name: "Docker", icon: "docker/docker-plain.svg" },
+			{ name: "Figma", icon: "figma/figma-original.svg" },
+		],
+	},
+	{
 		name: "CEPRA",
 		description: "Internet of Things project to control the flow, purification and consumption of water in a house.",
 		logoIcon: "bx bx-droplet",
